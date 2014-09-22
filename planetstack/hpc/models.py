@@ -64,7 +64,7 @@ class OriginServer(PlCoreBase):
     
     def __unicode__(self):  return u'%s' % (self.url)
 
-class CDNPrefix(PlCoreBase):
+class CDNPrefix(DNSName):
     class Meta:
         app_label = "hpc"
 
