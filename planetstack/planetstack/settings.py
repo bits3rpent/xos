@@ -146,6 +146,7 @@ INSTALLED_APPS = (
     'django_evolution',
     'core',
     'hpc',
+    'rr',
     'requestrouter',
     'cassandra',
     'kairos',
